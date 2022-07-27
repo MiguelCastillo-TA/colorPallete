@@ -1,0 +1,59 @@
+.App {
+  text-align: center;
+}
+*{
+  padding: 0;
+  margin: 0;
+}
+main{
+  display: grid;
+  grid-template-columns: 80% 20%;
+  height: 90vh;
+}
+header{
+  background-color: rgb(211, 211, 211);
+  color: #fff;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ul{
+  height: 100%;
+  overflow-y: scroll;
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+li{
+  flex: 1 0 21%;
+ 
+}
+.colored-btn{
+  height: 100%;
+  width: 100%;
+  border: none;
+}
+aside{
+  padding: 2vw;
+  display: flex;
+  flex-direction: column;
+  gap: 10%;
+}
+/* FORM */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 3%;
+  padding: 5px;
+  border: 1px solid #000;
+  height: 20%;
+}
+form input {
+  height: 30%;
+  margin: 0 auto;
+}
+form input[type=submit]{
+  width: 50%;
+  margin: 0 auto;
+}
